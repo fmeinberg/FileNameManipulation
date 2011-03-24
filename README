@@ -1,3 +1,7 @@
+FileNameManipulation` extends the file name manipulation functionality present in the Mathematica Kernel. It largely follows the conventions of the FileName* functions.
+
+[Installation]
+
 To make the package available to Mathematica, move the .m file to a location on your $Path. Default values are:
 
 ToFileName[$UserBaseDirectory,"Applications"]
@@ -12,6 +16,6 @@ or
 
 Needs["PackageName`"]
 
-Enjoy!
+Enjoy.
 
 -- FM
